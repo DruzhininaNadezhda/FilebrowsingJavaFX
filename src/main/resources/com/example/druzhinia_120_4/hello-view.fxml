@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="BOTTOM_LEFT" prefHeight="238.0" prefWidth="282.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.druzhinia_120_4.HelloController">
+   <children>
+      <SplitPane dividerPositions="0.38176638176638183" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="223.0" prefWidth="276.0" VBox.vgrow="ALWAYS">
+        <items>
+          <AnchorPane fx:id="text2">
+               <children>
+                  <TreeView fx:id="treeView" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+               </children></AnchorPane>
+          <AnchorPane fx:id="text1">
+               <children>
+                  <TextArea fx:id="text" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.8000000000000114" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+               </children></AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+
+</VBox>
